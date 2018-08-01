@@ -1,16 +1,21 @@
 shadowsocks
 ===========
+
 这是一个轻量级shadowsocks代理
+
 运用了sock5协议
-tcp转发相关知识
+
+tcp转发相关知识.
+
 usage
 ----------
-首先，确保你安装了python3
+首先，确保你安装了python3.
 
 	$ python --version
 	Python 3.6.4
 
-然后编辑‘config.json’,改变对应参数
+然后编辑‘config.json’,改变对应参数.
+
 	server    你的服务器ip或者域名
 	port      服务器端口
 	password  密码(暂时没用)
