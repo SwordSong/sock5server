@@ -1,0 +1,5 @@
+{
+	"server" : "mysock5",
+    "port" : "9999",
+	"password" : "haha",
+}
