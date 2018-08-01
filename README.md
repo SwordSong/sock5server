@@ -23,11 +23,20 @@ usage
 advanced
 ---------
 * 确保config.json与sock5server.py文件放在同一个子目录
-然后打开终端 python sock5server.py
-* 如果需要后台运行 linux系统下 nohup python3 sock5server.py > log
-* 服务器端部署完毕后 请在客户端自行连接对应部署Ip和端口，(注意勾选sock5协议)
-* log为python运行日志文件
+然后打开终端
+ 
+	python sock5server.py
+
+* 如果需要后台运行 linux系统下
+
+	 nohup python3 sock5server.py > log
+
+* 运行后会生成两个日志文件
+
+log为python运行日志文件
 logger.log为sock5server.py程序日志
+
+* 服务器端部署完毕后 请在客户端自行连接对应部署Ip和端口，(注意勾选sock5协议)
 
 这个程序目前的状况
 -----------------
