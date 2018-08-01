@@ -12,7 +12,7 @@ logging.basicConfig(filename='logger.log', level=logging.DEBUG, format='%(asctim
 with open('config.json', 'rb') as f:
     config = json.load(f)
 
-port = config['port']
+port = int(config['port'])
 
 class ThreadingTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
     pass
