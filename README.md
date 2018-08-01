@@ -22,14 +22,14 @@ usage
 
 advanced
 ---------
-* 确保config.json与sock5server.py文件放在同一个子目录
+确保config.json与sock5server.py文件放在同一个子目录
 然后打开终端
  
 	python sock5server.py
 
-* 如果需要后台运行 linux系统下
+如果需要后台运行 linux系统下
 
-	 nohup python3 sock5server.py > log
+	nohup python3 sock5server.py > log
 
 * 运行后会生成两个日志文件
 
