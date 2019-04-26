@@ -62,7 +62,7 @@ class Socks5Server(socketserver.StreamRequestHandler):
         # 比特流转化成整型 big表示编码为大端法，
         if ord(atype) == 1:
             # IPv4
-            remote_addr = inet_ntoa(client.recv(4))
+            remote_addr = socket.inet_ntoa(client.recv(4))
             remote_port = int.from_bytes(client.recv(2), 'big')
         elif ord(atype) == 3:
             # 域名 
